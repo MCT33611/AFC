@@ -22,7 +22,6 @@ const Navbar = () => {
     };
   }, []);
 
-
   const toggleMenu = () => {
     mobileMenu ? setMobileMenu(false) : setMobileMenu(true);
   };
@@ -34,10 +33,16 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`l-container ${sticky && "dark-nav"}`}
+      className={`l-container ${sticky ? "dark-nav" : "text-black"}`}
       ref={navRef}
     >
-      <img src={logo} alt="" className="logo" />
+      <div className="flex items-center gap-2">
+        <img src={logo} alt="" className="logo md:hidden lg:hidden block" />
+        <h1 className="text-nowrap md:block lg:block hidden font-bold md:text-xl lg:text-2xl   ">
+          Ashmi's Fitness Challenge
+        </h1>
+      </div>
+
       <ul className={!mobileMenu && "hide-mobile-icon"}>
         <li>
           <Link to="hero" smooth={true} offset={0} duration={500}>

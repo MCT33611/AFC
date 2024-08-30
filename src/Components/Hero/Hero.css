@@ -1,8 +1,12 @@
 .hero {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)),
-    url("src/assets/hero.jpg");
+  /* background: linear-gradient(rgba(8, 0, 58, 0.7), rgba(8, 0, 58, 0.7)), */
+  background: linear-gradient(
+      rgba(144, 238, 144, 0.527),
+      rgba(144, 238, 144, 0.299)
+    ),
+    url("src/assets/hero2.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -25,18 +29,23 @@
 }
 
 .contacts {
-    padding: 2px;
-    padding-left: 4px;
-    padding-right: 4px;
-    background: #f4f4f452;
-    border-radius: 5px;
-    color: #0c1139fd;
-    width: max-content;
+  padding: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  background: #f4f4f452;
+  border-radius: 5px;
+  color: #0c1139fd;
+  width: max-content;
+  flex-wrap: wrap;
 }
 
 /*------- media query -------*/
 
 @media (max-width: 850px) {
+  .hero {
+    background-position: right;
+    background-position-x:80% ;
+  }
   .hero-text h1 {
     font-size: 40px;
   }

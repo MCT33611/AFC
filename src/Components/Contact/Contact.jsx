@@ -3,7 +3,6 @@ import {
   MessageSquare,
   Mail,
   Phone,
-  MapPin,
   ArrowRight,
   PersonStanding,
 } from "lucide-react";
@@ -44,9 +43,9 @@ const Contact = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden md:flex">
           <div className="md:w-1/2 p-8">
-            <h3 className="text-2xl font-semibold text-gray-800 flex items-center mb-6">
+            <h3 className="text-2xl font-semibold text-green-800 flex items-center mb-6">
               Send us a message{" "}
-              <MessageSquare className="ml-2 w-6 h-6 text-blue-500" />
+              <MessageSquare className="ml-2 w-6 h-6 text-green-500" />
             </h3>
             <p className="text-gray-600 mb-6">
               Feel free to reach out through the contact form or find our
@@ -56,23 +55,24 @@ const Contact = () => {
             </p>
             <ul className="space-y-4">
               <li className="flex items-center text-gray-600">
-                <PersonStanding className="w-5 h-5 mr-3 text-blue-500" />
+                <PersonStanding className="w-5 h-5 mr-3 text-green-500" />
                 Ashmida Ali
               </li>
               <li className="flex items-center text-gray-600">
-                <Mail className="w-5 h-5 mr-3 text-blue-500" />
+                <Mail className="w-5 h-5 mr-3 text-green-500" />
                 ashmidaali@gmail.com
               </li>
               <li className="flex items-center text-gray-600">
-                <Phone className="w-5 h-5 mr-3 text-blue-500" />
+                <Phone className="w-5 h-5 mr-3 text-green-500" />
                 +91 9526622809
               </li>
             </ul>
             <div className="mt-8">
-              <h4 className="text-lg font-semibold text-gray-800 mb-4">
+              <h4 className="text-lg font-semibold text-green-800 mb-4">
                 Follow Us
               </h4>
               <div className="flex space-x-4">
+                {/* Social media icons remain unchanged */}
                 <a
                   href="https://www.instagram.com/afc_ashmi_ftness_challenge?igsh=MXA0NzJ1YWpxMGc1Yg%3D%3D&utm_source=qr"
                   target="_blank"
@@ -123,7 +123,11 @@ const Contact = () => {
                     <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
                   </svg>
                 </a>
-                <a href="https://wa.me/919526622809" target="_blank">
+                <a
+                  href="https://wa.me/919526622809"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <svg
                     width="24"
                     height="24"
@@ -136,8 +140,8 @@ const Contact = () => {
                       fill="green"
                     />
                     <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M12 23C10.7764 23 10.0994 22.8687 9 22.5L6.89443 23.5528C5.56462 24.2177 4 23.2507 4 21.7639V19.5C1.84655 17.492 1 15.1767 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM6 18.6303L5.36395 18.0372C3.69087 16.4772 3 14.7331 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C11.0143 21 10.552 20.911 9.63595 20.6038L8.84847 20.3397L6 21.7639V18.6303Z"
                       fill="green"
                     />
@@ -146,7 +150,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="md:w-1/2 p-8 bg-gray-50">
+          <div className="md:w-1/2 p-8 bg-green-100">
             <form onSubmit={onSubmit} className="space-y-4">
               <div>
                 <label
@@ -161,7 +165,7 @@ const Contact = () => {
                   name="name"
                   placeholder="Ashmida Ali"
                   required
-                  className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+                  className="mt-1 block w-full px-3 py-2 bg-white border border-green-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500"
                 />
               </div>
               <div>
@@ -177,7 +181,7 @@ const Contact = () => {
                   name="email"
                   placeholder="ashmidaali@gmail.com"
                   required
-                  className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+                  className="mt-1 block w-full px-3 py-2 bg-white border border-green-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500"
                 />
               </div>
               <div>
@@ -193,12 +197,12 @@ const Contact = () => {
                   rows="4"
                   placeholder="Enter your message"
                   required
-                  className="mt-1 block w-full px-3 py-2 bg-white border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500"
+                  className="mt-1 block w-full px-3 py-2 bg-white border border-green-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500"
                 ></textarea>
               </div>
               <button
                 type="submit"
-                className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                className="w-full flex justify-center py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
               >
                 Submit now <ArrowRight className="ml-2 w-4 h-4" />
               </button>

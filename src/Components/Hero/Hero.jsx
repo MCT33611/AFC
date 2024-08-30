@@ -7,8 +7,8 @@ const Hero = () => {
   return (
     <div className="hero l-container" id="hero">
       <div className="hero-text">
-        <h1>Fit with Ashmi in Just 15 Days </h1>
-        <p>
+        <h1 className="text-black">Fit with <span className="text-yellow-500">Ashmi</span> in Just 15 Days </h1>
+        <p className="text-black">
           Welcome to the Ashmi Fitness Challenge, a transformative 15-day
           fitness challenge for women. With over 5,000 successful
           transformations and a team of dedicated nutritionists and fitness

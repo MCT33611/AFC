@@ -10,10 +10,11 @@ import Contact from "./Components/Contact/Contact.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import TermsAndConditionsBox from "./Components/TermsAndConditionsBox/TermsAndConditionsBox.jsx";
 import Registration from "./Components/Registration/Registration.jsx";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop.jsx";
 
 const App = () => {
   return (
-    <>
+    <div className="overflow-hidden">
       <Navbar></Navbar>
       <Hero></Hero>
       <Program></Program>
@@ -26,8 +27,9 @@ const App = () => {
       <Registration></Registration>
       <Contact></Contact>
       <TermsAndConditionsBox></TermsAndConditionsBox>
+      <ScrollToTop></ScrollToTop>
       <Footer></Footer>
-    </>
+    </div>
   );
 };
 
