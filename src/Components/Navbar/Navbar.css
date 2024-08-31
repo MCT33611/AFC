@@ -23,6 +23,7 @@ nav ul li {
 }
 .dark-nav {
   background: #333;
+  color:#fff;
   transition: 0.5s;
 }
 
@@ -44,6 +45,7 @@ nav ul li {
 @media (max-width: 840px) {
   nav {
     padding: 15px 0;
+    color: #fff;
   }
   nav ul {
     position: fixed;
@@ -68,4 +70,8 @@ nav ul li {
   .hide-mobile-icon {
     right: -200px;
   }
+}
+
+@media (max-width:375px) {
+  
 }

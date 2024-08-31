@@ -33,13 +33,13 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`l-container ${sticky ? "dark-nav" : "text-black"}`}
+      className={`l-container ${sticky ? "dark-nav " : " md:text-black lg:text-black"}`}
       ref={navRef}
     >
       <div className="flex items-center gap-2">
         <img src={logo} alt="" className="logo md:hidden lg:hidden block" />
         <h1 className="text-nowrap md:block lg:block hidden font-bold md:text-xl lg:text-2xl   ">
-          Ashmi's Fitness Challenge
+          Ashmi Fitness Challenge
         </h1>
       </div>
 
