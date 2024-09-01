@@ -23,7 +23,7 @@ const App = () => {
       <About></About>
       <Title Subtitle='Testimonial' title='Success stories'></Title>
       <TestimonialSlider></TestimonialSlider>
-      <Title Subtitle='Hot to Join' title='Regitration Procedures'></Title>
+      <Title Subtitle='How to Join' title='Registration Procedures'></Title>
       <Registration></Registration>
       <Contact></Contact>
       <TermsAndConditionsBox></TermsAndConditionsBox>
