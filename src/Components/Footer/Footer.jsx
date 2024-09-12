@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 
 const WhatsappIcon = () => (
   <svg
@@ -85,28 +86,26 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="/"
+                <Link
+                  to="hero"
+                  smooth={true}
+                  offset={0}
+                  duration={500}
                   className="text-white opacity-80 hover:opacity-100 hover:underline"
                 >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/about"
+                <Link
+                  to="about"
+                  smooth={true}
+                  offset={0}
+                  duration={500}
                   className="text-white opacity-80 hover:opacity-100 hover:underline"
                 >
-                  About Us
-                </a>
-              </li>
-              <li>
-                <a
-                  href="/submit"
-                  className="text-white opacity-80 hover:opacity-100 hover:underline"
-                >
-                  Submit Photo
-                </a>
+                   About Us
+                </Link>
               </li>
             </ul>
           </div>
@@ -117,20 +116,27 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <a
-                  href="/terms"
+                <Link
+                  to="terms"
+                  smooth={true}
+                  offset={-150}
+                  duration={500}
                   className="text-white opacity-80 hover:opacity-100 hover:underline"
                 >
                   Terms and Conditions
-                </a>
+                </Link>
+
               </li>
               <li>
-                <a
-                  href="/privacy"
+                <Link
+                  to="terms"
+                  smooth={true}
+                  offset={-150}
+                  duration={500}
                   className="text-white opacity-80 hover:opacity-100 hover:underline"
                 >
                   Privacy Policy
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -142,10 +148,10 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="mailto:ashmidaali@gmail.com"
+                  href="mailto:afc@ashmifitness.com"
                   className="text-white opacity-80 hover:opacity-100 hover:underline"
                 >
-                  ashmidaali@gmail.com
+                  afc@ashmifitness.com
                 </a>
               </li>
             </ul>

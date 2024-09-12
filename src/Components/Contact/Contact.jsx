@@ -60,7 +60,7 @@ const Contact = () => {
               </li>
               <li className="flex items-center text-gray-600">
                 <Mail className="w-5 h-5 mr-3 text-green-500" />
-                ashmidaali@gmail.com
+                afc@ashmifitness.com
               </li>
               <li className="flex items-center text-gray-600">
                 <Phone className="w-5 h-5 mr-3 text-green-500" />
@@ -179,7 +179,7 @@ const Contact = () => {
                   type="email"
                   id="email"
                   name="email"
-                  placeholder="ashmidaali@gmail.com"
+                  placeholder="afc@ashmifitness.com"
                   required
                   className="mt-1 block w-full px-3 py-2 bg-white border border-green-300 rounded-md shadow-sm focus:outline-none focus:ring-green-500 focus:border-green-500"
                 />
