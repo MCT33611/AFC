@@ -116,7 +116,7 @@ const Footer = () => {
 
 
                 <a
-                  href="/terms"
+                  href="/terms-and-conditions"
                   className="text-white opacity-80 hover:opacity-100 hover:underline"
                 >
                   Terms and Conditions

@@ -40,7 +40,7 @@ const App = () => {
         />
 
         {/* Terms and Conditions route */}
-        <Route path="/terms" element={<TermsAndConditionsBox />} />
+        <Route path="/terms-and-conditions" element={<TermsAndConditionsBox />} />
 
         {/* Add more routes as needed */}
       </Routes>
