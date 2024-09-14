@@ -11,25 +11,41 @@ import Footer from "./Components/Footer/Footer.jsx";
 import TermsAndConditionsBox from "./Components/TermsAndConditionsBox/TermsAndConditionsBox.jsx";
 import Registration from "./Components/Registration/Registration.jsx";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop.jsx";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
-    <div className="overflow-hidden">
-      <Navbar></Navbar>
-      <Hero></Hero>
-      <Program></Program>
-      <Title Subtitle="Our PROGRAM" title="What’s Included"></Title>
-      <FitnessChallengePage></FitnessChallengePage>
-      <About></About>
-      <Title Subtitle='Testimonial' title='Success stories'></Title>
-      <TestimonialSlider></TestimonialSlider>
-      <Title Subtitle='How to Join' title='Registration Procedures'></Title>
-      <Registration></Registration>
-      <Contact></Contact>
-      {/* <TermsAndConditionsBox></TermsAndConditionsBox> */}
-      <ScrollToTop></ScrollToTop>
-      <Footer></Footer>
-    </div>
+    <Router>
+      <ScrollToTop />
+
+      <Routes>
+        {/* Home page route */}
+        <Route
+          path="/"
+          element={
+            <>
+              <Navbar />
+              <Hero />
+              <Program />
+              <Title Subtitle="Our PROGRAM" title="What’s Included" />
+              <FitnessChallengePage />
+              <About />
+              <Title Subtitle="Testimonial" title="Success stories" />
+              <TestimonialSlider />
+              <Title Subtitle="How to Join" title="Registration Procedures" />
+              <Registration />
+              <Contact />
+            </>
+          }
+        />
+
+        {/* Terms and Conditions route */}
+        <Route path="/terms" element={<TermsAndConditionsBox />} />
+
+        {/* Add more routes as needed */}
+      </Routes>
+      <Footer />
+    </Router>
   );
 };
 

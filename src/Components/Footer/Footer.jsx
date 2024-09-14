@@ -86,15 +86,12 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                <Link
-                  to="hero"
-                  smooth={true}
-                  offset={0}
-                  duration={500}
+                <a
+                  href="/#"
                   className="text-white opacity-80 hover:opacity-100 hover:underline"
                 >
                   Home
-                </Link>
+                </a>
               </li>
               <li>
                 <Link
@@ -127,7 +124,7 @@ const Footer = () => {
                 </Link> */}
 
                 <a
-                  href="src\Components\TermsAndConditionsBox\Terms_and_Conditions.html"
+                  href="/terms"
                   className="text-white opacity-80 hover:opacity-100 hover:underline"
                 >
                   Terms and Conditions
