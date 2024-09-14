@@ -26,7 +26,7 @@ const App = () => {
       <Title Subtitle='How to Join' title='Registration Procedures'></Title>
       <Registration></Registration>
       <Contact></Contact>
-      <TermsAndConditionsBox></TermsAndConditionsBox>
+      {/* <TermsAndConditionsBox></TermsAndConditionsBox> */}
       <ScrollToTop></ScrollToTop>
       <Footer></Footer>
     </div>
