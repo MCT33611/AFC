@@ -113,15 +113,7 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-                {/* <Link
-                  to="terms"
-                  smooth={true}
-                  offset={-150}
-                  duration={500}
-                  className="text-white opacity-80 hover:opacity-100 hover:underline"
-                >
-                  Terms and Conditions
-                </Link> */}
+
 
                 <a
                   href="/terms"
@@ -131,17 +123,7 @@ const Footer = () => {
                 </a>
 
               </li>
-              {/* <li>
-                <Link
-                  to="terms"
-                  smooth={true}
-                  offset={-150}
-                  duration={500}
-                  className="text-white opacity-80 hover:opacity-100 hover:underline"
-                >
-                  Privacy Policy
-                </Link>
-              </li> */}
+
             </ul>
           </div>
 
