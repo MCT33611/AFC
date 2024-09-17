@@ -12,6 +12,7 @@ import TermsAndConditionsBox from "./Components/TermsAndConditionsBox/TermsAndCo
 import Registration from "./Components/Registration/Registration.jsx";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop.jsx";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import PrivacyPolicyBox from "./Components/PrivacyPolicy/PrivacyPolicyBox.jsx";
 
 const App = () => {
   return (
@@ -19,7 +20,6 @@ const App = () => {
       <ScrollToTop />
 
       <Routes>
-        {/* Home page route */}
         <Route
           path="/"
           element={
@@ -39,10 +39,14 @@ const App = () => {
           }
         />
 
-        {/* Terms and Conditions route */}
-        <Route path="/terms-and-conditions" element={<TermsAndConditionsBox />} />
-
-        {/* Add more routes as needed */}
+        <Route
+          path="/terms-and-conditions"
+          element={<TermsAndConditionsBox />}
+        />
+        <Route
+          path="/privacy-policy"
+          element={<PrivacyPolicyBox />}
+        />
       </Routes>
       <Footer />
     </Router>

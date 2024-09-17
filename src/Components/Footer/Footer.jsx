@@ -101,7 +101,7 @@ const Footer = () => {
                   duration={500}
                   className="text-white opacity-80 hover:opacity-100 hover:underline"
                 >
-                   About Us
+                  About Us
                 </Link>
               </li>
             </ul>
@@ -113,17 +113,21 @@ const Footer = () => {
             </h3>
             <ul className="space-y-2">
               <li>
-
-
                 <a
                   href="/terms-and-conditions"
                   className="text-white opacity-80 hover:opacity-100 hover:underline"
                 >
                   Terms and Conditions
                 </a>
-
               </li>
-
+              <li>
+                <a
+                  href="/privacy-policy"
+                  className="text-white opacity-80 hover:opacity-100 hover:underline"
+                >
+                  Privacy Policy
+                </a>
+              </li>
             </ul>
           </div>
 
