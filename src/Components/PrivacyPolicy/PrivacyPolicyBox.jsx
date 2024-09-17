@@ -94,7 +94,7 @@ const PrivacyPolicyBox = () => {
         If you have any questions or concerns regarding this Privacy Policy or how your data is handled, please contact us at:
       </p>
       <p className="mb-2">Email: afc@ashmifitness.com</p>
-      <p className="mb-6">Instagram: [Insert Instagram handle]</p>
+      <p className="mb-6">Instagram: @afc_ashmi_ftness_challenge</p>
 
       <footer className="mt-10 text-center text-sm text-gray-500">
         &copy; 2024 AFC. All rights reserved.
