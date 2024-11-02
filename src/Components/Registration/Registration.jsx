@@ -12,12 +12,12 @@ const Registration = () => {
           <li>
             Message us on WhatsApp at{" "}
             <a
-              href="https://wa.me/919526622809"
+              href="https://wa.me/916282609179"
               target="_blank"
               rel="noopener noreferrer"
               className="text-green-600 hover:text-green-700 underline"
             >
-              +91 9526622809
+              +91 6282609179
             </a>{" "}
             or message us on Instagram
           </li>
@@ -25,7 +25,7 @@ const Registration = () => {
         </ul>
         <div className="flex justify-center space-x-4">
           <a
-            href="https://wa.me/919526622809"
+            href="https://wa.me/916282609179"
             target="_blank"
             rel="noopener noreferrer"
             className="text-green-600 hover:text-green-700"

@@ -64,7 +64,7 @@ const Contact = () => {
               </li>
               <li className="flex items-center text-gray-600">
                 <Phone className="w-5 h-5 mr-3 text-green-500" />
-                +91 9526622809
+                +91 6282609179
               </li>
             </ul>
             <div className="mt-8">
@@ -124,7 +124,7 @@ const Contact = () => {
                   </svg>
                 </a>
                 <a
-                  href="https://wa.me/919526622809"
+                  href="https://wa.me/916282609179"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

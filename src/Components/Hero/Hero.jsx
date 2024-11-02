@@ -85,7 +85,7 @@ const Hero = () => {
           <span>
             <p className="contacts">
               Join now only WhatsApp: <br className="block md:hidden lg:hidden" />
-              +91 9526622809, +971 521845251
+              +91 8848556842, +971 552510029, +916282609179
             </p>
           </span>
           <div className="flex space-x-4 justify-center mb-3">
@@ -134,7 +134,7 @@ const Hero = () => {
               </svg>
             </a>
             <a
-              href="https://wa.me/919526622809"
+              href="https://wa.me/916282609179"
               target="_blank"
               rel="noopener noreferrer"
             >

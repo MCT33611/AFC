@@ -53,7 +53,7 @@ const FitnessChallengePage = () => {
             Price: 1000 INR for 15 days
           </p>
           <a
-            href="https://wa.me/+919526622809"
+            href="https://wa.me/916282609179"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition duration-300 text-center"
