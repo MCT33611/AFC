@@ -50,7 +50,7 @@ const FitnessChallengePage = () => {
             Ready to Start Your Journey?
           </h2>
           <p className="text-lg font-semibold mb-4">
-            Price: 1000 INR for 15 days
+            Price: 1200 INR for 15 days
           </p>
           <a
             href="https://wa.me/916282609179"
