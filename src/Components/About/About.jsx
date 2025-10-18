@@ -14,12 +14,11 @@ const About = () => {
           <h3>ABOUT PROGRAM</h3>
           <h2>Discover Your Strongest Self: The AFC Experience</h2>
           <p>
-            At AFC, we're dedicated to empowering women through a transformative
-            15-day fitness challenge. Registered with the GST Government of
-            Kerala, our program offers personalized fitness and nutrition plans
-            designed by Ashmida, a professional nurse with extensive nutrition
-            training. With over 5,000 successful transformations, we provide
-            expert guidance via WhatsApp and support every step of the way.
+            At AFC, we're dedicated to empowering both women and men through 
+            a transformative 15-day fitness challenge. Registered with 
+            the GST Government of Kerala, our program offers personalized fitness and 
+            nutrition plans designed by Ashmida, a professional nurse with extensive nutrition training. 
+            With over 20,000 successful transformations, we provide expert guidance via WhatsApp and support every step of the way.
           </p>
           <p>
             New batches start every 15 days. Join us via Instagram or explore
@@ -37,10 +36,10 @@ const About = () => {
             motivated me to create a structured fitness program.
           </p>
           <p>
-            Seeing the growing interest and success, I expanded the program and
-            brought certified professional nutritionists on board to provide
-            expert guidance. Today, AFC is dedicated to empowering women with
-            the same transformative strategies that worked for me.
+            Seeing the growing interest and success, 
+            I expanded the program and brought certified professional nutritionists 
+            on board to provide expert guidance. Today, AFC is dedicated to empowering 
+            both women and men with the same transformative strategies that worked for me.
           </p>
           <h3>WHAT I AM</h3>
           <ul>

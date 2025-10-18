@@ -8,7 +8,7 @@ const FitnessChallengePage = () => {
     >
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl md:text-4xl font-bold text-center text-green-800 mb-6">
-          15-Day Fitness Challenge for Women
+          15-Day Fitness Challenge For Women And Men
         </h1>
 
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8">
@@ -16,9 +16,9 @@ const FitnessChallengePage = () => {
             Transform Your Body in Just Two Weeks!
           </h2>
           <p className="text-gray-700">
-            Join our transformative 15-Day Fitness Challenge designed
-            specifically for women. This program combines personalized fitness
-            and nutrition plans to help you achieve your health goals.
+            Join our transformative 15-Day Fitness Challenge designed for both women and men. 
+            This program combines personalized fitness and nutrition plans 
+            to help you achieve your health goals.
           </p>
         </div>
 
@@ -50,10 +50,10 @@ const FitnessChallengePage = () => {
             Ready to Start Your Journey?
           </h2>
           <p className="text-lg font-semibold mb-4">
-            Price: 1200 INR for 15 days
+            Price: 750 INR for 15 days
           </p>
           <a
-            href="https://wa.me/916282609179"
+            href="https://wa.me/919778214768"
             target="_blank"
             rel="noopener noreferrer"
             className="block w-full bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded transition duration-300 text-center"

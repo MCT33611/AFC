@@ -75,17 +75,17 @@ const Hero = () => {
             Days{" "}
           </h1>
           <p className="text-black">
-            Welcome to the Ashmi Fitness Challenge, a transformative 
-            15-day fitness challenge for women. With over 5,000 successful
-            transformations and a team of dedicated nutritionists and fitness
-            experts, we’re here to help you achieve your health and fitness
-            goals. Join us today to start your journey toward a fitter, more
-            confident you!
+            Welcome to the Ashmi Fitness Challenge — a transformative 15-day fitness program 
+            for both women and men. With over 20,000 successful transformations and a team of 
+            dedicated nutritionists and fitness experts, we’re here to help you achieve your 
+            health and fitness goals. Join us today to start your journey toward a fitter, stronger, 
+            and more confident you!
           </p>
           <span>
             <p className="contacts">
-              Join now only WhatsApp: <br className="block md:hidden lg:hidden" />
-              +91 8848556842, +971 552510029, +916282609179
+              Join now only WhatsApp:{" "}
+              <br className="block md:hidden lg:hidden" />
+              +91 97782 14768, +91 88485 56842
             </p>
           </span>
           <div className="flex space-x-4 justify-center mb-3">
@@ -134,7 +134,7 @@ const Hero = () => {
               </svg>
             </a>
             <a
-              href="https://wa.me/916282609179"
+              href="https://wa.me/919778214768"
               target="_blank"
               rel="noopener noreferrer"
             >

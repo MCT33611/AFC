@@ -8,11 +8,11 @@ const TermsAndConditionsBox = () => {
       </h1>
 
       <p class="mb-6">
-        Welcome to <strong>AFC (Ashmi Fitness Challenge)</strong>, a fitness
-        program designed to empower women through personalized fitness and
-        nutrition plans. By participating in this program, you agree to comply
-        with and be bound by the following terms and conditions. Please review
-        them carefully before enrolling.
+        Welcome to <strong>AFC (Ashmi Fitness Challenge)</strong>, 
+        a fitness program designed to empower <strong>both women and men</strong> 
+        through personalized fitness and nutrition plans. By participating in this program, 
+        you agree to comply with and be bound by the following terms and conditions. 
+        Please review them carefully before enrolling.
       </p>
 
       <h2 class=" font-semibold text-gray-700 mb-4">

@@ -70,7 +70,7 @@ const Footer = () => {
               <YoutubeIcon />
             </a>
             <a
-              href="https://wa.me/916282609179"
+              href="https://wa.me/919778214768"
               target="_blank"
               className="bg-[#25D366] hover:bg-white text-white hover:text-[#25D366] p-2 rounded-full transition-all"
             >

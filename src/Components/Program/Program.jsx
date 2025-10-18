@@ -13,10 +13,9 @@ const Program = () => {
             15-Day <span className="our">Fitness Challenge</span>
           </span>
           <p>
-            Join our transformative <b>15-Day</b> Fitness Challenge designed
-            specifically <b>for women</b>. This program combines personalized
-            fitness and nutrition plans to help you achieve your health goals in
-            just two weeks
+            Join our transformative <b>15-Day</b> Fitness Challenge designed for <b>both women and men</b>. 
+            This program combines personalized fitness and nutrition 
+            plans to help you achieve your health goals in just two weeks.
           </p>
         </div>
       </div>
